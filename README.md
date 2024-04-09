@@ -2,7 +2,7 @@
 
 ## Overview
 
-A data analysis application to find out interesting insights about Boston Housing.
+A database.
 
 Demo: https://lab2bostonhousing.streamlit.app/
 
@@ -21,18 +21,8 @@ streamlit run app.py
 
 ## Lessons learned
 
-How to create a web app that reads a dataset and displays interesting data visualizations about the dataset
-
-How to choose the right filtering and visualization method for the right features
-
-How to use slider, dropdown, select widgets to filter data
-
-How to draw plots using plotly, including bar charts and scatter charts
-
-How to use sidebar for filtering widgets
+How to 
 
 ## Questions & TODO
 
-How to reset all or some current filters using a button instead of refreshing the page?
-
-How to change color of the plot?
+How to
