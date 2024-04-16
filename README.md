@@ -1,28 +1,47 @@
-# TECHIN 510 Lab 3
+# Promptbase
 
-## Overview
-
-A database.
-
-Demo: https://lab2bostonhousing.streamlit.app/
-
+A webapp to store and quickly access your favorite ChatGPT prompts❤️.
 
 ## Getting Started
 
-'''
+### First time setup
 
-python -m venv venv             
-source venv/bin/activate        
-pip install -r requirements.txt 
+```bash
+# Create virtual environment
+python -m venv venv
 
+# Activate virtual environment
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
+```
+
+### Future runs
+
+```bash
+# Activate virtual environment
+source venv/bin/activate
+
+# Run the app
 streamlit run app.py
+```
 
-'''
 
-## Lessons learned
+## Lessons Learned
+How to interact with database systems.
 
-How to 
+How to use supabase to save data on cloud.
 
-## Questions & TODO
+How to model and operate data:
+1. CREATE
+2. READ
+3. UPDATE
+4. DELETE
+5. SORT and FILTER
 
-How to
+
+## Future Improvements
+Improve the webapp's UI design.
+
+Automatically extract keywords according to the prompt, generate tags, and classify the prompts.
